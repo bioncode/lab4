@@ -1,10 +1,27 @@
 <%- include('partials/header.ejs') %>
 
-        <h1> Welcome to the Solar System Site!</h1>
-        <p>Click on a planet to know more about it:</p>
-            <a href="/mercury"> Mercury </a> <br>
-            <a href="/venus"> Venus </a> <br>
-            Earth <br>
-        <img src="/img/solar_system.jpg" alt="The Solar System" />
-        
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="/mercury">Mercury</a>
+        <a class="nav-item nav-link" href="/venus">Venus</a>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to the Solar System Site!</h1>
+  </div>
+
+  <div class="mx-auto description mb-5" style="width: 60%;">
+      <p class="lead mt-5">The Solar System is the gravitationally bound system of the Sun 
+      and the objects that orbit it, either directly or indirectly. Of the objects that 
+      orbit the Sun directly, the largest are the eight planets, with the remainder being 
+      smaller objects, the dwarf planets and small Solar System bodies.</p>
+      <img src="/img/solar_system.jpg" class="rounded mx-auto d-block mt-5"  alt="The Solar System" />
+  </div>
+
 <%- include('partials/footer.ejs') %>

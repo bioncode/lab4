@@ -1,4 +1,17 @@
 body {
-    background-color: #1F85DE;
+    background-color: #404040;
     text-align: center;
+}
+
+.jumbotron {
+    background-color: #404040;
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+hr {
+    border: 1px solid white;
 }
