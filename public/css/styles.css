@@ -15,3 +15,11 @@ body {
 hr {
     border: 1px solid white;
 }
+
+nav > .active > a:focus {
+
+    background-color: rgba(103,103,103,1.00);
+
+    color: rgba(229,229,229,1.00);   
+
+}
