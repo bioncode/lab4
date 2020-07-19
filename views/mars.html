@@ -1,0 +1,31 @@
+<%- include('partials/header.ejs') %>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#solar-system-menu" aria-controls="solar-system-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="solar-system-menu">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/">Home</a>
+        <a class="nav-item nav-link" href="/mercury">Mercury</a>
+        <a class="nav-item nav-link" href="/venus">Venus</a>
+        <a class="nav-item nav-link" href="/earth">Earth</a>
+        <a class="nav-item nav-link active" href="/mars">Mars</a>
+        <a class="nav-item nav-link" href="/jupiter">Jupiter</a>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1 class="display-4">Mars</h1>
+  </div>
+
+  <div class="mx-auto description mb-5" style="width: 60%;">
+      <p class="lead mt-5">Mars is the fourth planet from the sun. Befitting the Red Planet's bloody color, the Romans named it after their god of war. In truth, 
+      the Romans copied the ancient Greeks, who also named the planet after their god of war, Ares. Other civilizations also typically gave the planet names based 
+      on its color — for example, the Egyptians named it "Her Desher," meaning "the red one," while ancient Chinese astronomers dubbed it "the fire star." The bright 
+      rust color Mars is known for is due to iron-rich minerals in its regolith — the loose dust and rock covering its surface. The soil of Earth is a kind of regolith, 
+      too, albeit one loaded with organic content. According to NASA, the iron minerals oxidize, or rust, causing the soil to look red.</p>
+      <img src="/img/mars.jpg" class="rounded mx-auto d-block mt-5"  alt="Mars" />
+  </div>
+
+<%- include('partials/footer.ejs') %>

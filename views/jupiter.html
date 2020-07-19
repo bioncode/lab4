@@ -1,0 +1,30 @@
+<%- include('partials/header.ejs') %>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#solar-system-menu" aria-controls="solar-system-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="solar-system-menu">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/">Home</a>
+        <a class="nav-item nav-link" href="/mercury">Mercury</a>
+        <a class="nav-item nav-link" href="/venus">Venus</a>
+        <a class="nav-item nav-link" href="/earth">Earth</a>
+        <a class="nav-item nav-link" href="/mars">Mars</a>
+        <a class="nav-item nav-link active" href="/jupiter">Jupiter</a>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1 class="display-4">Jupiter</h1>
+  </div>
+
+  <div class="mx-auto description mb-5" style="width: 60%;">
+      <p class="lead mt-5">Jupiter is the largest planet in the solar system. Fittingly, it was named after the king of the gods in Roman mythology. In a similar manner, 
+      the ancient Greeks named the planet after Zeus, the king of the Greek pantheon. Jupiter helped revolutionize the way we saw the universe and ourselves in 1610, 
+      when Galileo discovered Jupiter's four large moons — Io, Europa, Ganymede and Callisto, now known as the Galilean moons. This was the first time that celestial 
+      bodies were seen circling an object other than Earth, and gave major support to the Copernican view that Earth was not the center of the universe.</p>
+      <img src="/img/jupiter.jpg" class="rounded mx-auto d-block mt-5"  alt="Jupiter" />
+  </div>
+
+<%- include('partials/footer.ejs') %>
